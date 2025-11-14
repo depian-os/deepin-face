@@ -1,0 +1,80 @@
+deepin-face (2.0.10) unstable; urgency=medium
+
+  * chore: change license from LGPL to GPL
+  * fix: improve enrollment stop sequence and thread safety
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 16 Oct 2025 20:49:50 +0800
+
+deepin-face (2.0.9) unstable; urgency=medium
+
+  * feat: add Debian packaging configuration
+
+ -- zhangkun <zhangkun2@uniontech.com>  Wed, 09 Jul 2025 16:48:33 +0800
+
+deepin-face (2.0.8) unstable; urgency=medium
+
+  * fit: Camera occupied with no feedback
+
+ -- Lv Peilong <lvpeilong@uniontech.com>  Thu, 10 Apr 2025 19:46:05 +0800
+
+deepin-face (2.0.7) unstable; urgency=medium
+
+  * fix: 修复人脸录入过程中,关闭窗口后,人脸设备未即时退出问题
+  * feat: Upgrade to QT6
+
+ -- Lv Peilong <lvpeilong@uniontech.com>  Wed, 19 Mar 2025 15:45:11 +0800
+
+deepin-face (2.0.6) unstable; urgency=medium
+
+  * fix: 修复测试机有摄像头,登录方式没有显示生物认证入口问题
+
+ -- ChengqiE <echengqi@uniontech.com>  Thu, 06 Mar 2025 19:46:55 +0800
+
+deepin-face (2.0.5) unstable; urgency=medium
+
+  * feat: 对deepin-face服务进行安全加固
+
+ -- fuleyi <fuleyi@uniontech.com>  Fri, 18 Oct 2024 15:29:48 +0800
+
+deepin-face (2.0.4) unstable; urgency=medium
+
+  * fix: deepin-face出现崩溃
+  * chore: 异步处理人脸数据验证
+
+ -- dengbo <dengbo@uniontech.com>  Fri, 7 Apr 2022 13:38:45 +0800
+
+deepin-face (2.0.3) unstable; urgency=medium
+
+  [ TagBuilder ]
+  * chore: 去除opencv依赖，调整人脸采集流程及处理(Task: 206871)(Influence: 控制中心生物识别人脸录入、人脸数据管理及鉴权人脸对比验证等)
+  * feat: 接口更变，增加V23接口(Task: 207483)(Influence: 接口更变)
+  * feat: 修复接口名称修改错误问题(Task: 207483)(Influence: 接口更变)
+  * fix: 修复接口调用录入时可能导致服务无法退出问题(Task: 206871)(Influence: 控制中心生物识别人脸录入、人脸数据管理及鉴权人脸对比验证等)
+
+ -- zhaoyingzhen <zhaoyingzhen@uniontech.com>  Tue, 13 Dec 2022 19:27:51 +0800
+
+deepin-face (2.0.2) unstable; urgency=medium
+
+  [ Deepin Packages Builder ]
+  * fix: 添加多个人脸数据显示异常及人脸数据管理异常(Bug: 157537, 157545)(Influence: 控制中心生物识别人脸录入及人脸数据管理)
+
+ -- baodi <baodi@uniontech.com>  Wed, 19 Oct 2022 11:20:16 +0800
+
+deepin-face (2.0.1) unstable; urgency=medium
+
+  [ TagBuilder ]
+  * fix: 修复无法录入人脸数据的问题(Bug: 141827)(Influence: 人脸服务录入等功能正常)
+
+ -- caixiangrong <caixiangrong@uniontech.com>  Mon, 25 Jul 2022 11:16:02 +0800
+
+deepin-face (2.0.0.0) unstable; urgency=medium
+
+  * release 2.0.0.0
+
+ --  <fanpengcheng@uniontech.com>  Tue, 14 June 2022 17:24:13 +0800
+
+deepin-face (1.0.0.0) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- echengqi <echengqi@uniontech.com>  Mon, 06 Dec 2021 14:43:38 +0800
